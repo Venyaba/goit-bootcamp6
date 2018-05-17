@@ -1,0 +1,251 @@
+@import 'reset.css';
+@import 'vars.css';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header__logo {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-basis: 40%;
+}
+
+.header__list {
+    text-transform: uppercase;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.menu__link:hover {
+    color: var(--accent-color);
+    border-bottom: 3px solid var(--accent-color);
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 30pt;
+    font-weight: bold;
+    position: relative;
+}
+
+.title::before {
+    content: 'We work with';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 200;
+    text-align: center;
+    /*display: block;*/
+}
+
+.title::after {
+    content: '';
+    height: 3px;
+    width: 60px;
+    background-color: var(--accent-color);
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+
+
+}
+
+
+
+.articles {
+    padding: 50px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+ }
+
+.services__article {
+    flex-basis: 30%;
+    position: relative;
+
+ }
+
+.services__article:nth-child(n+4) {
+     margin-top: 100px;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: -42px;
+}
+
+.bg-BOOK {
+    width: 32px; height: 32px;
+    background: url(../img/icons.png) -10px -10px;
+}
+
+.bg-ALARM {
+    width: 32px; height: 31px;
+    background: url(../img/icons.png) -62px -62px;
+}
+
+.bg-IMAGE {
+    width: 32px; height: 32px;
+    background: url(../img/icons.png) -62px -10px;
+}
+
+.bg-HOME {
+    width: 32px; height: 31px;
+    background: url(../img/icons.png) -114px -10px;
+}
+
+.bg-COMPUTER {
+    width: 32px; height: 28px;
+    background: url(../img/icons.png) -114px -61px;
+}
+
+.bg-LINE_GRAPH {
+    width: 32px; height: 32px;
+    background: url(../img/icons.png) -10px -62px;
+}
+
+.sub_title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.services__text {
+    color: #929292;
+}
+
+.team {
+    border-bottom: 3px solid #ffffff;
+}
+
+.team > .title::before {
+    content: 'Who we are';
+}
+
+.team__text {
+    padding-top: 30px;
+    text-align: center;
+    color: #929292;
+}
+
+.team__articles {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    position: relative;
+
+}
+
+.specialist__img {
+    /*display: flex; */
+}
+
+.team_img {
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+.team_img:hover {
+    top: -13px;
+    left: -13px;
+    transition: all 0.3s linear;
+}
+
+
+.name {
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.speciality {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #929292;
+    text-transform: capitalize;
+}
+
+.social__team {
+    position: absolute;
+    z-index: 10;
+    align-self: center;
+
+}
+
+
+.icon__team {
+    display: inline-block;
+    height: 56px;
+    width: 56px;
+    margin-left: 0;
+}
+
+.icon__team:hover {
+    background-color: var(--primary-color);
+    transition: all 0.2s linear;
+
+}
+
+.bg-instagram {
+    background: url('../img/social_icon/instagram.png') 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #fce28b;
+}
+
+.bg-pinterest {
+    background: url('../img/social_icon/pinterest.png') 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #fce28b;
+}
+
+.bg-twitter {
+    background: url('../img/social_icon/twitter.png') 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #fce28b;
+}
+
+.bg-facebook {
+    background: url('../img/social_icon/facebook.png') 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #fce28b;
+}
+

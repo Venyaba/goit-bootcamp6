@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Wisdom';
+    src: url('../fonts/thirstyscriptextrabolddemo-webfont.woff2') format('woff2'),
+    url('../fonts/thirstyscriptextrabolddemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'droid_serifitalic';
+    src: url('../fonts/droidserif-italic-webfont.woff2') format('woff2'),
+    url('../fonts/droidserif-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

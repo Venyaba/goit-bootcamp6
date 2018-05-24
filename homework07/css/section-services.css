@@ -1,0 +1,67 @@
+.section-services {
+
+}
+
+.tittle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 6rem;
+}
+
+.sub-text {
+    text-align: center;
+    font-family: 'droid_serifitalic';
+    color: var(--text-color);
+    margin-top: 0.6rem;
+}
+
+
+.services-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+
+}
+
+.services-items {
+    flex-basis: 32%;
+}
+
+.services-icon {
+    display: block;
+    width: 4.25rem;
+    height: 4.25rem;
+    border: 3px solid var(--accent-color);
+    border-radius: 50%;
+    padding: 2.5rem;
+    margin: auto;
+}
+
+.bg-Icon_Basket {
+    width: 2.625rem; height: 2.625rem;
+    background: url('../img/icon-services.png') 0.56rem 0.43rem;
+}
+
+.bg-Icon_Laptop {
+    width: 2.68rem; height: 2.31rem;
+    background: url('../img/icon-services.png') 4.5rem 0.68rem;
+}
+
+.bg-Icon_Locked {
+    width: 1.93rem; height: 2.5rem;
+    background: url('../img/icon-services.png') 0.93rem -3.375rem;
+}
+
+.sub-tittle {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.list-text {
+    text-align: center;
+    font-size: 1.125rem;
+    color:var(--text-color);
+}

@@ -6,11 +6,6 @@
 }
 
 .container {
-    max-width: 58.31rem;
-    min-width: 20rem;
+    width: 1200px;
     margin: auto;
-}
-
-.wrapper--bg {
-    background-image: url('../img/Background.png');
 }

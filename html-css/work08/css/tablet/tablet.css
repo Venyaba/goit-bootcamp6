@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+    .wrapper--bg_image {
+        background-image: url("../../img/bg/desktop_bg.jpeg");
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .header-logo{
+        margin-bottom: 7rem;
+    }
+    .header-menu{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 35%;
+    }
+
+    .main-btn {
+        padding: 0.4rem 1.5rem;
+    }
+
+    .partners-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /*align-items: center;*/
+
+
+    }
+    .partners-article {
+        flex-basis: 35%;
+    }
+    .partners-btn {
+        padding: 0.4rem 1.5rem;
+    }
+}

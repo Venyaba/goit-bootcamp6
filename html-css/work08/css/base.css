@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family : var(--montserrat);
+}
+
+.wrapper--bg_image {
+    background-image: url(../img/bg/bg_mobile.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+
+.container {
+    max-width: 58.68rem;
+    margin: auto;
+}
+

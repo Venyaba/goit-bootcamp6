@@ -1,0 +1,78 @@
+.services {
+    padding: 2rem 0 4rem 5rem;
+}
+
+.title--black {
+    color: #000;
+    font-size: 2rem;
+}
+
+.title--black::before {
+    content: 'We work with';
+    display: block;
+    font-size: 28px;
+    font-family: 'kaushan';
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.title--black::after {
+    content: '';
+    height: 3px;
+    width: 60px;
+    background-color: rgb(232, 130, 130);
+    display: block;
+    margin: 1.5rem auto;
+
+}
+
+
+.services__articles {
+    padding: 3rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+}
+
+.article {
+    -ms-flex-preferred-size: 28%;
+    flex-basis: 28%;
+    position: relative;
+
+}
+
+
+.article:nth-child(n+4) {
+    margin-top: 2rem;
+}
+
+
+.article__icon {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+    left: -3.5rem;
+}
+
+
+.article__title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'robotoregular';
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+
+.text {
+    color: #929292;
+}

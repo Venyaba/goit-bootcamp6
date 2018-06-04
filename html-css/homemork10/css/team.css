@@ -1,0 +1,144 @@
+.team {
+    padding-bottom: 2rem;
+}
+
+.title--before::before {
+    content: 'Who we are';
+    display: block;
+    font-size: 28px;
+    font-family: 'kaushan';
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.text--center {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.team__cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.team__member {
+    -ms-flex-preferred-size: 31%;
+    flex-basis: 31%;
+}
+
+.team__box {
+    position: relative;
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+
+}
+
+.team__img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.team__box--hover:hover {
+    top: -10px;
+    left: -10px;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    /*-webkit-transition: 0.5s all;*/
+    /*-o-transition: 0.5s all;*/
+    /*transition: 0.5s;*/
+}
+
+.overlay {
+    position: absolute;
+    width: 23.25rem;
+    height: 28.7125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 130, 131, 0.91)), to(rgba(238, 215, 137, 0.91)));
+    background-image: -webkit-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91));
+    background-image: -o-linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91));
+    background-image: linear-gradient(rgba(233, 130, 131, 0.91), rgba(238, 215, 137, 0.91));
+    -webkit-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+    left: 0;
+    top: 0;
+}
+
+.overlay--hover:hover {
+    opacity: 0.9;
+}
+
+.team__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.social__link{
+    background-color: rgba(252, 227, 138, 255);
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.2px solid rgb(232, 130, 130);
+    fill: rgb(232, 130, 130);
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.social__link--hover:hover {
+    background-color: rgb(232, 130, 130);
+    fill: #fff;
+}
+
+.social__link:nth-child(n+2) {
+    border-left: none;
+}
+
+.team__icon {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    margin: 0.8rem auto;
+}
+
+.team__discr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.team__name {
+    text-transform: uppercase;
+    margin: 0.8rem 0;
+    font-family: 'montserrat';
+}
+
+.team__speciality {
+    text-transform: capitalize;
+    color: #929292;
+    font-family: 'robotolight_italic'
+}

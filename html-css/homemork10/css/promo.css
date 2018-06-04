@@ -1,0 +1,44 @@
+.promo {
+    padding: 6rem;
+}
+
+
+.title {
+    max-width: 43rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'montserrat';
+    margin: auto;
+    text-align: center;
+
+}
+
+.title::before {
+    content: 'Creative Template';
+    display: block;
+    font-size: 3.5rem;
+    font-family: 'kaushan';
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+
+}
+
+.promo__link {
+    display: block;
+    margin: auto;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    font-family: 'montserrat';
+    max-width: 15%;
+    margin-top: 5rem;
+
+}
